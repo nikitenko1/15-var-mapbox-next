@@ -1,0 +1,21 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "import/no-unresolved": "error",
+    "react/no-unescaped-entities": 0,
+    "no-undef": "error",
+    "no-unused-vars": "error",
+    "no-use-before-define": "warn",
+    "react/display-name": "off",
+    "import/no-anonymous-default-export": "off",
+    "@next/next/no-img-element": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./"]],
+        "extensions": [".ts", ".js", ".jsx", ".json"]
+      }
+    }
+  }
+}
